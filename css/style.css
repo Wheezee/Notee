@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+}
+.bg {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(8px) brightness(50%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.getStarted {
+    display: block;
+    background-color: #2385A2;
+    border: 0;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+.logo1 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.desc1 {
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.textCenter {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+}
